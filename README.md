@@ -85,7 +85,7 @@ You can change your GitHub username by [following the instructions on docs.githu
 
 Complete all tasks in a notebook called `trigrams.ipynb` in your repository.
 The tasks should be completed without the use of external libraries or APIs.
-However, you can use of anything in a standard library.
+However, you can use [anything in a standard library](https://en.wikipedia.org/wiki/Standard_library).
 
 For each task, you should write your code in code cells while using MarkDown cells to give explanations and insights into your code.
 Break up your code into smaller, manageable cells whenever possible.
@@ -101,11 +101,13 @@ There should be several commits for each task demonstrating incremental improvem
 
 #### Task 1: Third-order letter approximation model
 
-Select five free English-language works from [Project Guternberg](https://www.gutenberg.org/) and use them to create a model of the English language as follows.
+Select five free English works in `Plain Text UTF8` format from [Project Guternberg](https://www.gutenberg.org/).
+Use them to create a model of the English language as follows.
+Remove any preamble and postamble.
 Remove all characters except for (ASCII) letters (uppercase and lowercase), full stops, and spaces.
 Make all letters uppercase.
 
-Next create a trigram model by counting the number of times each sequence of three characters (each trigram) appears.
+Next create a trigram model by counting the number of times each sequence of three characters (that is, each trigram) appears.
 You can design your own data structure for storing the results but explain your design and its rationale in your answer.
 
 For example, the sentence: `It is what it is.` would become `IT IS WHAT IT IS.`
@@ -141,24 +143,27 @@ Create your own version of the [ELIZA chatbot](https://en.wikipedia.org/wiki/ELI
 In your `README.md` file, include a direct link to your GitHub Pages site.
 
 The chatbot must run entirely on the client-side, without using any external libraries or APIs.
-Use **HTML** and **CSS** for the interface and plain **JavaScript** for the chatbot logic.
+Use **HTML** and **CSS** for the interface and plain **JavaScript** and/or [WebAssembly](https://webassembly.org/) for the chatbot logic.
 Name the main page `index.html` and place it in the root of your repository. 
 Store your CSS in a file called `style.css`, also in the root directory.
 
-Place your chatbot logic in a file named `eliza.js` in the same location.
-The chatbot interface should include a text box for user input and an area to display ELIZA's responses.
+Place your main chatbot logic in a file named `eliza.js` in the same location.
+The chatbot interface should include a text box for user input and an area to display the conversation history.
 
 Ensure your code is well-commented and that your interface introduces and explains how your chatbot works.
 
 
 ## Marking Scheme
 
-Each component will be graded based on the following four categories, each of equal weight. 
+Each component will be graded based on the following four categories.
+Each category carries equal weight.
+
 Remember, your repository is what will be evaluated.
 It should demonstrate evidence of the criteria outlined for each category.
-The examiners' overall impression of the submission may affect marks in each category.
+That said, the examiners' overall impression of the submission may affect marks in each category.
 
-You are expected to make steady progress on the assessment throughout the semester, and this should be reflected in your commit history.
+You are expected to make steady progress on the assessment throughout the semester.
+This should be reflected in your commit history.
 Huge commits, especially late in the semester, will not be accepted.
 At any stage you may be asked to discuss the work to date in your repository.
 
@@ -191,15 +196,16 @@ Do not delete any files or commits without first consulting the lecturer.
 
 ## Advice
 
-In open-style assessments like this one, students may find it challenging to navigate the freedom provided.
-Guided by the module's materials, you will need to determine where and how to begin, what content is relevant for your submission, how much is appropriate, and how to personalize your work.
-This level of autonomy is intentional and meant to foster independent thinking and decision-making skills.
+The freedom provided in open-style assessments such as this one can feel challenging.
+You need to decide how to start, what content to include, how much to cover, and how to make the work your own. 
 
-Companies value graduates who can take initiative, work autonomously, and make design decisions with minimal guidance.
-We assume you have a reasonable knowledge of programming and an ability to source your own information.
-You need a plan; you cannot just start coding straight away.
+The assessment is designed to provide you with opportunities for independent thinking and decision-making.
+Employers value graduates who can take initiative, work independently, and make design decisions with minimal guidance.
+We expect you to have basic programming knowledge and be able to find information on your own.
 
-Remember you must adhere to ATU policies and regulations.
-You can view these on the [Student Hub](https://studenthub.atu.ie).
-Pay special attention to the Policy on Plagiarism and the Student Code.
-If you have any questions about what is permitted, email the lecturer.
+You should have a clear plan before you start coding.
+Your submission should include both your plan and an explanation of any design choices you made.
+
+Make sure to follow ATU's policies and regulations which are on the [Student Hub](https://studenthub.atu.ie).
+Pay particular attention to any policies on plagiarism and the Student Code.
+If you're unsure about anything, ask the lecturer.
