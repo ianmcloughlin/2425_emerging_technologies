@@ -85,7 +85,7 @@ You can change your GitHub username by [following the instructions on docs.githu
 
 Complete all tasks in a notebook called `trigrams.ipynb` in your repository.
 The tasks should be completed without the use of external libraries or APIs.
-However, use of anything in a standard library is permitted.
+However, you can use of anything in a standard library.
 
 For each task, you should write your code in code cells while using MarkDown cells to give explanations and insights into your code.
 Break up your code into smaller, manageable cells whenever possible.
