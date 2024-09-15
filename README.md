@@ -100,7 +100,7 @@ Your commit history should demonstrate how each solution to each task evolved.
 There should be several commits for each task demonstrating incremental improvements, clarifications, and revisions.
 
 #### Task 1: Third-order letter approximation model
-
+ 
 Select five free English works in `Plain Text UTF8` format from [Project Guternberg](https://www.gutenberg.org/).
 Use them to create a model of the English language as follows.
 Remove any preamble and postamble.
