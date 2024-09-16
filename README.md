@@ -43,42 +43,61 @@ They are based on feedback given to previous students in this and other modules.
 You should treat it as a form of [feed-forward](https://www.qaa.ac.uk/docs/qaas/focus-on/a-student-guide-to-feedback-feedforward.pdf) to help you improve.
 
 
+
 ### Repository (20%)
 
-To begin, create a new repository on [GitHub](https://github.com).
-Include only work you are submitting for this assessment in the repository.
-Ensure your work is in the `main` branch of the repository, although you may use other branches in developing this main body of work.
-Your overall submission will be graded based on the last commit in GitHub on or before the deadline day.
+Start by creating a new repository on [GitHub](https://github.com).
+Include in it only work that is part of your submission.
+Make sure your final submission is in the `main` branch, though you can use other branches for development.
+Your grade will be based on the last commit made on or before the deadline.
 
-**Immediately submit your GitHub username and repository name using [this form](https://forms.office.com/e/Bninfm2LeU)**.
-The form is only accessible when you are logged into your ATU student account.
-You will need your GitHub username and repository name.
-These can easily be found in your browser's location bar when visiting your repository on [github.com](https://github.com).
-In the location bar will be something like: `github.com/username/reponame`
-Your username is between the first two forward slashes after `github.com`.
-Your repository name is between the second and third forward slashes after `github.com`.
-The forward slashes are not part of the username or repository name.
 
-Your repository should be well-organized with [a clear `README.md`](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes), a [relevant `.gitignore` file](https://github.com/github/gitignore/blob/main/Python.gitignore), and any requirements below.
-Avoid committing [unnecessary files or folders](https://realpython.com/python-git-github-intro/#what-not-to-add-to-a-git-repo).
-Use [lowercase](https://developers.google.com/style/filenames) for file and folder names, except for the usual uppercase files such as `README.md`, and avoid using spaces and unusual characters.
-It is okay to use underscores, hyphens, and full stops.
+#### Submit Your Repository Info
 
-Your completed repository should be easy to present during technical job interviews.
-An interviewer should understand your work and how to interact with it without any assistance.
-This will significantly influence your grade for this component and all other components.
+**Immediately** submit your GitHub username and repository name using [this form](https://forms.office.com/e/Bninfm2LeU). 
+The form is only accessible through your ATU student account.  
+You can find your username and repository name in the browser's address bar when viewing your repository on GitHub.
+In the browser's location bar your will see something like `github.com/<username>/<repository_name>/`
 
-#### Note: Private Repositories
+#### Use GitHub Issues
+Use [GitHub Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) to plan and track your progress.
+Begin by making a clear plan for your tasks and project.
+Your submission must include this plan and explain any design decisions made.
+Document and track your plan using the [Issues tab](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-a-repository) for your repository.
+   
+You may structure your issues as you see fit.
+However, I suggest having at least one issue per task and several for the project.
+You should also include issues related just to your repository, such as writing the `README.md`.
 
-You can set your repository to `private` if you wish.
-Make sure to add `ianmcloughlin` as a collaborator if you do.
-To add a collaborator, [follow the instructions here.](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository#inviting-a-collaborator-to-a-personal-repository)
+#### Organize Your Repository
 
-#### Note: Usernames
+Your work should be easy to showcase during a technical interview.
+An interviewer should be able to understand and interact with your work without any assistance.
+This will have a significant impact on your mark for this and other components.
 
-Interviewers often ask to see GitHub profiles. Choose your GitHub username carefully.
-I use my full name, but do not necessarily recommend you do. Neither do I recommend using your student number. You can use a pseudonym, so long as it does not sound too silly.
-You can change your GitHub username by [following the instructions on docs.github.com.](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/changing-your-github-username)
+To this end, make sure your repository is well-structured and includes:
+  - A clear [README.md](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes).
+  - A relevant [`.gitignore` file](https://github.com/github/gitignore).
+  - [No unnecessary files or folders](https://realpython.com/python-git-github-intro/#what-not-to-add-to-a-git-repo).
+  - Lowercase file and folder names, except for files like `README.md`.
+  - No spaces or special characters in filenames. Underscores, hyphens, and full stops are okay.
+
+#### Private Repositories  
+
+You can make your repository private.
+If you do, add `ianmcloughlin` [as a collaborator](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository#inviting-a-collaborator-to-a-personal-repository).
+
+
+#### Choosing a GitHub Username  
+
+Your GitHub username will be visible to potential employers.
+Choose wisely.
+You can use your real name, but a pseudonym is also fine if it’s reasonable.
+Avoid using your student number.
+You can [change your username by following the instructions on GitHub](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/changing-your-github-username).
+
+
+
 
 
 ### Tasks (40%)
@@ -186,7 +205,7 @@ Do not delete any files or commits without first consulting the lecturer.
 ### Documentation
  - Clear explanations of concepts.
  - Concise comments in code and elsewhere.
- - Appropriate README for repository.
+ - Appropriate `README.md` for repository.
   
 ### Consistency
  - Tens of commits, each representing a reasonable amount of work.
@@ -202,9 +221,6 @@ You need to decide how to start, what content to include, how much to cover, and
 The assessment is designed to provide you with opportunities for independent thinking and decision-making.
 Employers value graduates who can take initiative, work independently, and make design decisions with minimal guidance.
 We expect you to have basic programming knowledge and be able to find information on your own.
-
-You should have a clear plan before you start coding.
-Your submission should include both your plan and an explanation of any design choices you made.
 
 Make sure to follow ATU's policies and regulations which are on the [Student Hub](https://studenthub.atu.ie).
 Pay particular attention to any policies on plagiarism and the Student Code.
