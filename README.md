@@ -130,7 +130,7 @@ Next create a trigram model by counting the number of times each sequence of thr
 You can design your own data structure for storing the results but explain your design and its rationale in your answer.
 
 For example, the sentence: `It is what it is.` would become `IT IS WHAT IT IS.`
-This will give a model like `{'IT ': 2, 'T I': 3, ' IS': 2, ' IS': 2, 'IS ': 1, ...}`.
+This will give a model like `{'IT ': 2, 'T I': 3, ' IS': 2, 'IS ': 1, ...}`.
 
 
 #### Task 2: Third-order letter approximation generation
