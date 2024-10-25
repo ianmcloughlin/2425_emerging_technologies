@@ -98,8 +98,6 @@ You can [change your username by following the instructions on GitHub](https://d
 
 
 
-
-
 ### Tasks (40%)
 
 Complete all tasks in a notebook called `trigrams.ipynb` in your repository.
@@ -163,8 +161,8 @@ In your `README.md` file, include a direct link to your GitHub Pages site.
 
 The chatbot must run entirely on the client-side, without using any external libraries or APIs.
 Use **HTML** and **CSS** for the interface and plain **JavaScript** and/or [WebAssembly](https://webassembly.org/) for the chatbot logic.
-Name the main page `index.html` and place it in the root of your repository. 
-Store your CSS in a file called `style.css`, also in the root directory.
+Name the main page `index.html` and place it in a folder called `eliza` in the root of your repository. 
+Store your CSS in a file called `style.css`, also in the `eliza` directory.
 
 Place your main chatbot logic in a file named `eliza.js` in the same location.
 The chatbot interface should include a text box for user input and an area to display the conversation history.
